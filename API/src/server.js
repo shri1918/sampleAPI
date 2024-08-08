@@ -1,5 +1,5 @@
 const express = require('express');
-const { connectDB, getDB } = require('./db');
+const { connectDB, getDB } = require('../db');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
